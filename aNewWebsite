@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/Final_Practice_Test/form.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Job Application Form Widget</h1>
+        <div class="form-container"> 
+        <form action="/action_page.php" method="get">
+        <div class="form-group1">
+            <label for="name" class="label1"></label>
+            <input type="text" name="name" id="name1" class="form-control1" placeholder="First name" />
+            <p id="alert1" class="aleart1">First name should not be blank</p>
+        </div>
+        <div class="form-group1">
+            <label for="name" class="label1"></label>
+            <input type="text" name="name" id="name2" class="form-control1" placeholder="Last name"/>
+            <p id="alert2" class="aleart1">Last name should not be blank</p>
+        </div>
+        <div class="form-group1">
+            <label for="email" class="label1"></label>
+            <input type="email" name="email" id="email" class="form-control1" placeholder="Email"/>
+            <p id="alert3" class="aleart1">Email should not be blank</p>
+        </div>
+        <div class="form-group1">
+            <label for="phone" class="label1"></label>
+            <input type="tel" name="phone" id="phone" class="form-control1" placeholder="Phone"/>
+        </div>
+        <div class="form-group2">
+            <label class="label2" for="dropdown1"></label>
+            <select name="dropdown1" id="dropdown1" class="form-control2">
+                <option value="#">Select country</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Philippine">Philippine</option>
+                <option value="Lao">Lao</option>
+                <option value="Cambodia">Cambodia</option>
+            </select>
+        </div>
+        
+        </form>
+    </div>
+    <script src="/Final_Practice_Test/form.js"></script>
+</body>
+</html>
