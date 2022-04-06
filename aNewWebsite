@@ -46,7 +46,40 @@
                 <option value="Cambodia">Cambodia</option>
             </select>
         </div>
-        
+        <div class="form-group2">
+            <label for="city" class="label2"></label>
+            <input type="text" name="city" id="city" class="form-control2" placeholder="City">
+        </div>
+        <div class="form-group2">
+            <label for="address" class="label2"></label>
+            <input type="text" name="address" id="address" class="form-control2" placeholder="Address">
+        </div>
+        <div class="form-group2">
+            <label class="" for="dropdown2"></label>
+            <select name="dropdown2" id="dropdown2" class="form-control2">
+                <option value="#">Choose desired position</option>
+                <option value="operator">Operator</option>
+                <option value="manager">Manager</option>
+                <option value="developer">Developer</option>
+                <option value="desiner">Designer</option>
+                <option value="tester">Tester</option>
+            </select>
+        </div>
+        <div class="form-group2">
+            <label for="more-info" class="label"></label>
+            <textarea name="more-info" id="more-info" class="form-control2" placeholder="Additional info"></textarea>
+        </div>
+        <div class="form-group2" id="file-container">
+            <label for="file" class="label"></label>
+            <p>Add your CV</p>
+            <input type="file" name="file" id="file" accept="application/pdf" placeholder="Add your CV">
+            <input id="file1" type="button" value="Browse" onclick="document.getElementById('file').click();" /> 
+        </div>
+        <p class="p1">Only: pdf/doc. Size: lest than 1Mb</p>
+        <div class="button-cointainer">
+            <button class="reset-send" id="reset1">Reset</button>
+            <button type="submit" class="reset-send" id="send1">Send</button>
+        </div>
         </form>
     </div>
     <script src="/Final_Practice_Test/form.js"></script>
